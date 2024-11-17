@@ -40,7 +40,7 @@ cd SBA-320
 1. **Use the search bar to find movies**
 2. **The app fetches results from the OMDB API**
 
-## **Add to Watchlist**
+### **Add to Watchlist**
 
 1. **Select a movie and click "Add to Watchlist"**
 2. **View your saved movies in the Watchlist tab**
