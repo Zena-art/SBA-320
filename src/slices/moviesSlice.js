@@ -1,7 +1,10 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_KEY = 'YOUR_OMDB_API_KEY'; // Replace with your actual OMDB API key
+const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
+
+console.log(import.meta.env.VITE_OMDB_API_KEY);
+
 
 export const searchMovies = createAsyncThunk(
   'movies/searchMovies',
